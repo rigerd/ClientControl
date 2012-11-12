@@ -1,6 +1,7 @@
 ﻿Module Module1
     Dim WithEvents MyClient As New CClient
-
+'''<Summary>
+'''</Summary>
     Sub Main()
         MyClient.ClientStart("127.0.0.1", 89)
         MyClient.SendText("Message from Client")
